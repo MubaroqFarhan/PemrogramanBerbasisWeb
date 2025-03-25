@@ -1,0 +1,19 @@
+button{
+    padding: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 19px;
+
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(6, 6, 145);
+}
+
+body{
+    background-image: url(/WhatsApp\ Image\ 2025-02-26\ at\ 17.10.08.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
