@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portofolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/beb83d916e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+           <nav>
+                <img src="Pictures/Logo.png" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portofolio">Portofolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas-solid fa-bars" onclick="openmenu()"></i>
+           </nav> 
+           <div class="header-text">
+            <p>Data Scientist</p>
+            <h1>Hi, I'm <span> Mubaroq </span> <br> Farhan from Indonesia</h1>
+           </div>
+        </div>
+    </div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Pictures/Profil Photo.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    Saya Mubaroq Dwiki Husni Farhan, mahasiswa aktif Program Studi Sistem Informasi di Universitas Singaperbangsa Karawang. Memiliki ketertarikan besar dalam bidang data, bisnis, dan teknologi. Selama perjalanan akademik saya, saya telah banyak belajar tentang pentingnya data dalam pengambilan keputusan strategis serta bagaimana teknologi informasi dapat mendorong efisiensi di berbagai sektor.
+                </p>
+                <p>
+                    Saya aktif dalam berbagai kegiatan organisasi, salah satunya menjadi bagian dari Himpunan Mahasiswa Sistem Informasi (HIMSIKA) sebagai anggota divisi acara. Keterlibatan ini membuat saya terbiasa bekerja dalam tim, mengelola acara, dan berkomunikasi secara efektif. Selain itu, saya juga memiliki pengalaman di kepanitiaan kampus dan pernah menjadi anggota KPPS di lingkungan rumah saya.
+                </p>
+                <p>
+                    Saya percaya bahwa belajar tidak hanya datang dari ruang kelas, tetapi juga dari pengalaman lapangan. Oleh karena itu, saya terus mengembangkan diri melalui proyek-proyek pribadi, kolaborasi tim, serta mengikuti bootcamp dan pelatihan, khususnya di bidang data science dan teknologi. Target saya ke depan adalah menjadi profesional di bidang data dan bisnis digital yang mampu memberikan dampak nyata.
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Data Handling & Analysis</span><br>Mengolah dan menganalisis data dasar untuk menghasilkan insight sederhana</li>
+                        <li><span>Statistical Calculation</span><br>Mampu melakukan perhitungan statistik dasar untuk keperluan analisis</li>
+                        <li><span>Basic Business Knowledge</span><br>Memahami konsep dasar bisnis seperti BMC dan segmentasi pasar</li>
+                        <li><span>Microsoft Office</span><br>Terampil menggunakan Word, Excel, dan PowerPoint untuk kebutuhan akademik dan presentasi</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience"> 
+                    <ul>
+                        <li><span>2025 - Current</span><br>Mengikuti Bootcamp Data Science & Artificial Intelligence</li>
+                        <li><span>2024 - 2025</span><br>Menjadi Ketua Departemen dan mengikuti banyak kepanitiaan di Kepengurusan Himsika</li>
+                        <li><span>2019 - 2020</span><br>Menjadi Sekretaris di Kepengurusan Ekstrakurikuler ROHIS</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Current</span><br>Universitas Singaperbangsa Karawang</li>
+                        <li><span>2021</span><br>SMAN 2 Cikampek</li>
+                        <li><span>2018</span><br>SMPN 1 Klari</li>
+                    </ul>
+                </div>                                          
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Data Handling & Analysis</h2>
+                <p>
+                    Saya memiliki keahlian dalam mengumpulkan, membersihkan, dan menganalisis data menggunakan berbagai tools seperti Excel dan Python dasar. Analisis data saya gunakan untuk membantu pengambilan keputusan dan penyusunan laporan yang tepat sasaran.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                <h2>Statistical Calculation</h2>
+                <p>
+                    Saya mampu melakukan perhitungan statistik baik secara manual maupun menggunakan software, terutama dalam riset akademik dan bisnis. Keahlian ini saya gunakan dalam penelitian maupun analisis sederhana berbasis data primer.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-business-time"></i>
+                <h2>Basic Business</h2>
+                <p>
+                    Dengan latar belakang organisasi dan project startup, saya memahami konsep dasar bisnis mulai dari Business Model Canvas, analisis pasar, hingga validasi ide bisnis. Saya juga pernah ikut serta dalam lomba-lomba BMC dan kewirausahaan.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-file-word"></i>
+                <h2>Microsoft Office</h2>
+                <p>
+                    Terbiasa menggunakan Microsoft Word untuk pembuatan laporan, Excel untuk perhitungan dan data analisis, serta PowerPoint untuk presentasi. Saya juga sering membantu rekan dalam menyusun dokumen formal hingga materi visual presentasi.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="portofolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Pictures/3.png">
+                <div class="layer">
+                    <h3>Business Model Canvas</h3>
+                    <p>Pembuatan BMC mengenai makanan siap saji yang sesuai dengan gaya hidup sehat anak gen Z yang bernama BiteBox Nusantara</p>
+                    <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Pictures/1.png">
+                <div class="layer">
+                    <h3>Analysis Data</h3>
+                    <p>Pembuatan berbagai projek analisis data di SPSS</p>
+                    <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Pictures/2.png">
+                <div class="layer">
+                    <h3>Website Project</h3>
+                    <p>Pembuatan berbagai projek di Mata Kuliah Pemrograman Berbasis Web</p>
+                    <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>mubaroq03@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>085213427448</p>
+                <div class="social-icons">
+                    <a href="https://web.facebook.com/mubaroqfarhan?locale=id_ID"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.instagram.com/mubaroq_farhan/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/mubaroq-farhan-174b4934a/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://x.com/mubaroqf?s=21&t=X4P9h66kaZpAKIE7HW_wmQ"><i class="fa-brands fa-square-x-twitter"></i></a>
+                </div>
+                <a href="Pictures/CV_Mubaroq Dwiki Husni Farhan.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <nav>
+        <img src="Pictures/Logo.png" alt="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+    </nav> 
+    <div class="copyright">
+        <p>Copyright @ Mubaroq. Made with <i class="fa-solid fa-heart"></i> by Me</p>
+    </div>
+</div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
